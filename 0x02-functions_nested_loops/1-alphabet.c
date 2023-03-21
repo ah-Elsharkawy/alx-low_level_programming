@@ -1,17 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: (Success)
  */
-void print_alphabet(void);
-int main(void)
+void print_alphabet(void)
 {
-char word[8] = "_putchar";
-for (int i = 0; i < 8; i++)
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-putchar(word[i]);
+_putchar(c);
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
