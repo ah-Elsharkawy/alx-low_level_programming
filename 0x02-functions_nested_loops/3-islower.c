@@ -2,6 +2,7 @@
 
 /**
  * _islower - check main
+ * @i: the current alphapet
  * Return: 0 or 1.
  */
 
